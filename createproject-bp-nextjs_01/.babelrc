@@ -1,0 +1,15 @@
+{
+  "plugins": ["@babel/plugin-syntax-dynamic-import"],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": ["chrome >= 60"]
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ]
+}
